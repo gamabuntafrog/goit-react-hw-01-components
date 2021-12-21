@@ -8,6 +8,7 @@ const FriendList = ({props}) => {
                 key={el.id}
                 avatar={el.avatar}
                 name={el.name}
+                isOnline={el.isOnline}
             />
         })}
     </ul>
